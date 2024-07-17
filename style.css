@@ -1,0 +1,126 @@
+/* *{
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
+} */
+/*
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 300 to 800 */
+
+    .open-sans-normal {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      /* font-weight: weight; */
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+
+/* Nav Style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark-2{
+    color:#474747 ;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.secondry-bg{
+    background-color:#fff8f3 ;
+
+}
+/* Main section Content */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* header content */
+.header{
+    background-image: url(Images/developer.png) ,url(Images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    /* border: 2px solid #FD6E0A; */
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* banner Style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 35px 10px 200px ;
+}
+
+.banner-content{
+    width: 580px;
+    height: fit-content;
+    /* border: 2px solid #FD6E0A; */
+
+}
+.banner-greetings{
+    font-size: 45px ;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 568px;
+}
+/* main style */
+main{
+    width: 80%;
+    margin: 0px auto;
+}
+/* About section */
+
+.about{
+    padding: 130px 150px;
+    margin-top: 130px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.item-description{
+    font-weight: 600;
+    font-size: 18px;
+}
